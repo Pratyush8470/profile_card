@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE CARD</title>
+
+    <link rel="icon" href="./images/letter-p.png" type="icon/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+
+</head>
+
+<body class=" bg-[#EAEFE0] text-[#143d59] font">
+
+    <section class="py-8">
+        <div class="container">
+            <div class="row flex flex-wrap justify-center">
+                <div class="w-4/12 shadow-4xl text-center overflow-hidden relative" style="border-radius: 70px;">
+                    <div class="pa-1 p-16"
+                        style="background: rgb(140,56,86);background: linear-gradient(201deg, rgba(140,56,86,1) 5%, rgba(217,117,133,1) 82%);">
+                        <div class="flex items-center justify-center">
+                            <div class="profil-pic bg-black rounded-full overflow-hidden bg-cover h-40 w-40 shadow-5xl">
+                                <img src="images/1695285115306.jpg" alt="profil-pic">
+                                <img src="images/pngegg.png" alt="wave" class="absolute top-48 left-0 h-44 w-full">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pa-2 bg-white text-center p-5">
+                        <div>
+                            <h1 id="name" class="text-[#143d59] text-3xl pt-7"></h1>
+                            <p id="course" class="text-[#143d59] mt-2"></p>
+                        </div>
+                        <div class="mt-5 mb-5">
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                        </div>
+                        <div class="social">
+                            <ul class="flex justify-center">
+
+                                <li><a href="https://www.instagram.com/_pratyush_024/" class="mr-3 inline-block h-10 w-10 rounded-full leading-10 text-[20px] hover:bg-[#d97585] hover:text-white transition-all"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li><a href="https://twitter.com/790_Pratyush"
+                                        class=" mr-3 inline-block h-10 w-10 rounded-full leading-10 text-[20px] hover:bg-[#d97585] hover:text-white transition-all"><i
+                                            class="fa-brands fa-x-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/pratyush-bhatiya-8552a529a/" class="mr-3 inline-block h-10 w-10 rounded-full leading-10 text-[20px] hover:bg-[#d97585] hover:text-white transition-all"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                </li>
+                                <li><a href="https://github.com/Pratyush8470" class="inline-block h-10 w-10 rounded-full leading-10 text-[20px] hover:bg-[#d97585] hover:text-white transition-all"><i
+                                            class="fa-brands fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-5 mb-5">
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                        </div>
+                        <div class="p-5" id="about">
+                            In the last 1.5 years, I've been actively engaged in the IT sector, where I've been learning
+                            and developing skills in back-end web development.
+                        </div>
+                        <div class="mt-5 mb-5">
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                            <i class="fa-solid fa-circle text-xs" style="color: #143d59;font-size: 5px;"></i>
+                        </div>
+                        <div class="email-phone flex justify-center pb-5">
+                            <div class="email ">
+                                <a href="javascript:void(0)" class="py-4 px-10 rounded-full block bg-[#d97585] text-white hover:bg-white hover:text-[#d97585] transition-all" style="border: 1px solid #d97585;">
+                                    <i class="fa-solid fa-envelope mr-5"></i>
+                                    <span id="email"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let name="BHATIYA PRATYUSH";
+        let course="BACK-END DEVELOPER";
+        let email="pratyushbhatiya106@gmail.com";
+
+        document.querySelector("#name").innerHTML = name;
+        document.querySelector("#course").innerHTML = course;
+        document.querySelector("#email").innerHTML = email;
+    </script>
+</body>
+
+</html>
